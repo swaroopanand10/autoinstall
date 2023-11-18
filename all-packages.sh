@@ -3,6 +3,8 @@ packagesParu=(
 
 ## Wayland related packages
 "hyprland"
+# "rofi-lbonn-wayland-git"
+"rofi-calc"
 "swaybg"
 "waybar"
 "wl-clipboard"
@@ -10,7 +12,6 @@ packagesParu=(
 "xdg-desktop-portal"
 "cliphist"
 "swaylock"
-"rofi-calc"
 "swayidle"
 "grimblast-git"
 "wlr-randr"
@@ -18,7 +19,6 @@ packagesParu=(
 "nwg-look-bin"
 "wlogout"
 #"xdg-desktop-portal-hyprland-git"
-"rofi-lbonn-wayland-git"
 
 ## Wm packages
 "pamixer"
@@ -105,6 +105,7 @@ packagesParu=(
 "visual-studio-code-bin"
 "cloudflare-warp-bin"
 "lsix-git"
+"ansible"
 
 # filemanagers
 "lf"

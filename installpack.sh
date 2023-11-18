@@ -7,6 +7,7 @@
 # _installPackagesYay "${packagesYay[@]}";
 
 source ./all-packages.sh
+paru -S rofi-lbonn-wayland-git
 source ./paru-function.sh
 
 _installPackagesParu "${packagesParu[@]}"
