@@ -35,6 +35,7 @@ packagesParu=(
 "zsh-syntax-highlighting"
 "zsh-autosuggestions"
 "fzf-tab-bin-git"
+"fzf-tab-completion-git"
 
 ## Terminals
 "foot"
@@ -110,6 +111,8 @@ packagesParu=(
 
 # filemanagers
 "lf"
+"ctpv-git"
+"ueberzugpp"
 # "ranger"
 # "joshuto"
 "nemo"
