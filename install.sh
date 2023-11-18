@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# source ./packages.sh
-# source ./functions.sh
-#
-# _installPackagesPacman "${packagesPacman[@]}";
-# _installPackagesYay "${packagesYay[@]}";
-
-source ./all-packages.sh
-source ./paru-function.sh
-
-_installPackagesParu "${packagesParu[@]}"
+# curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+source ./paru.sh
+source ./installpack.sh
