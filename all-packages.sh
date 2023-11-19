@@ -13,8 +13,8 @@ packagesParu=(
 "cliphist"
 "swaylock"
 "swayidle"
-"wlr-randr"
-"wlprop"
+# "wlr-randr"
+# "wlprop"
 "nwg-look-bin"
 "wlogout"
 # for screen capturing
