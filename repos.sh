@@ -6,7 +6,7 @@ git clone git@gitlab.com:swaroopanand10/music.git $HOME/music
 git clone git@github.com:swaroopanand10/autoinstall.git $HOME/.config/autoinstall
 
 cd $HOME/dotstow/
-stow * -t ~ --adopt
+stow */ -t ~ --adopt
 cd $HOME/dotstow/ && git restore *
 
 
@@ -21,9 +21,9 @@ git clone https://github.com/pwndbg/pwndbg.git $HOME/repos/pwndbg
 mkdir -p $HOME/code/projects
 mkdir -p $HOME/code/projects/other
 mkdir -p $HOME/code/os
+mkdir -p $HOME/code/prg/
 
 # personal projects
-git clone git@github.com:swaroopanand10/prg.git $HOME/code/prg
 git clone git@github.com:swaroopanand10/asm.git $HOME/code/projects/asm
 git clone git@github.com:swaroopanand10/gtk4tut.git $HOME/code/projects/gtk4tut
 git clone git@github.com:swaroopanand10/hfc_restart.git $HOME/code/projects/hfc_restart

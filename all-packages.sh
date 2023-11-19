@@ -136,7 +136,7 @@ packagesParu=(
 "npm"
 # "prettier"
 # "rustup"
-"rust-analyzer"
+# "rust-analyzer"
 "go"
 "cmake"
 "flake8"
