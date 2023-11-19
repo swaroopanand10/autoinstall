@@ -148,4 +148,5 @@ packagesParu=(
 "dracula-gtk-theme"
 "dracula-icons-git"
 "dracula-cursors-git"
+"faba-icon-theme"
 );
