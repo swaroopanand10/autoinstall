@@ -3,7 +3,7 @@
 git clone git@github.com:swaroopanand10/lvim.git $HOME/.config/nvim
 git clone git@github.com:swaroopanand10/dotstow.git $HOME/dotstow
 git clone git@gitlab.com:swaroopanand10/music.git $HOME/music
-git clone git@gitlab.com:swaroopanand10/autoinstall.git $HOME/.config/autoinstall
+git clone git@github.com:swaroopanand10/autoinstall.git $HOME/.config/autoinstall
 
 cd $HOME/dotstow/
 stow * -t ~ --adopt
@@ -34,4 +34,4 @@ git clone https://github.com/TheOdinProject/javascript-exercises.git $HOME/code/
 git clone https://github.com/TheOdinProject/css-exercises.git $HOME/code/projects/other/css-exercises
 
 # os repos
-git clone https://gitlab.com/inkscape/inkscape.git$HOME/code/os/inkscape
+git clone https://gitlab.com/inkscape/inkscape.git $HOME/code/os/inkscape

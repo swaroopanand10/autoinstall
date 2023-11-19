@@ -13,12 +13,20 @@ packagesParu=(
 "cliphist"
 "swaylock"
 "swayidle"
-"grimblast-git"
 "wlr-randr"
 "wlprop"
 "nwg-look-bin"
 "wlogout"
+# for screen capturing
+"grimblast-git"
+"slurp"
+"wf-recorder"
 #"xdg-desktop-portal-hyprland-git"
+
+## Bluetooth
+"bluez"
+"bluez-utils"
+"blueman"
 
 ## Wm packages
 "pamixer"
@@ -90,7 +98,7 @@ packagesParu=(
 
 ## Fonts
 "ttf-font-awesome"
-# ttf-jetbrains-mono-nerd
+"ttf-jetbrains-mono-nerd"
 
 ## Others
 "stow"
@@ -108,6 +116,8 @@ packagesParu=(
 # "lsix-git"
 "ansible"
 "htop"
+"brightnessctl"
+"unzip"
 
 # filemanagers
 "lf"

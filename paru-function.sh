@@ -2,7 +2,7 @@
 
 _isInstalledParu() {
     package="$1";
-    check="$(paru -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+    check="$(paru -Qs "${package}" | grep "local" | grep "local/${package} ")";
     if [ -n "${check}" ] ; then
         echo 0; #'0' means 'true' in Bash
         return; #true
