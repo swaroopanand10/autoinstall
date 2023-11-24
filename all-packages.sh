@@ -73,6 +73,9 @@ packagesParu=(
 "starship"
 "tree"
 "sxiv"
+"xorg-xrdb"
+"imv"
+"dnsmasq" # needed with nmcli
 
 ## Media related packages
 "mpc"
@@ -118,6 +121,8 @@ packagesParu=(
 "htop"
 "brightnessctl"
 "unzip"
+"man-db"
+"hyprpicker"
 
 # filemanagers
 "lf"
@@ -134,6 +139,8 @@ packagesParu=(
 "python-pynvim"
 "nodejs"
 "npm"
+"gdb"
+"cgdb"
 # "prettier"
 # "rustup"
 # "rust-analyzer"
