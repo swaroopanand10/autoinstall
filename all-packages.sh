@@ -91,6 +91,7 @@ packagesParu=(
 "zathura-pdf-mupdf"
 "zathura-djvu"
 "zaread-git"
+"evince"
 # zathura-pdf-poppler
 
 ## Browsers
@@ -123,6 +124,7 @@ packagesParu=(
 "unzip"
 "man-db"
 "hyprpicker"
+"git-delta"
 
 # filemanagers
 "lf"
