@@ -35,6 +35,8 @@ packagesParu=(
 "udiskie"
 "dunst"
 "network-manager-applet"
+"batsignal"
+# "batify"
 # rofi-greenclip
 # gnome-keyring
 
@@ -117,16 +119,23 @@ packagesParu=(
 "xournalpp"
 "visual-studio-code-bin"
 "cloudflare-warp-bin"
-# "lsix-git"
 "ansible"
-"htop"
 "brightnessctl"
 "unzip"
 "man-db"
+"man-pages"
 "hyprpicker"
 "git-delta"
+"libqalculate"
+# "lsix-git"
 
-# filemanagers
+## Resource manager
+"htop"
+"btop"
+"bottom"
+"strace"
+
+## Filemanagers
 "lf"
 "ctpv-git"
 "ueberzugpp"
