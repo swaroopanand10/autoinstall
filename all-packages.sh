@@ -4,7 +4,7 @@ packagesParu=(
 ## Wayland related packages
 "hyprland"
 # "rofi-lbonn-wayland-git"
-"rofi-calc"
+# "rofi-calc"
 "swaybg"
 "waybar"
 "wl-clipboard"
@@ -21,6 +21,7 @@ packagesParu=(
 "grimblast-git"
 "slurp"
 "wf-recorder"
+"hyprpicker"
 #"xdg-desktop-portal-hyprland-git"
 
 ## Bluetooth
@@ -120,13 +121,12 @@ packagesParu=(
 "visual-studio-code-bin"
 "cloudflare-warp-bin"
 "ansible"
-"brightnessctl"
 "unzip"
 "man-db"
 "man-pages"
-"hyprpicker"
 "git-delta"
 "libqalculate"
+"inetutils"
 # "lsix-git"
 
 ## Resource manager
