@@ -63,14 +63,18 @@ packagesParu=(
 "pipewire-pulse"
 "pavucontrol"
 
+## Tmux related
+"tmux"
+"tmux-resurrect"
+"tmux-plugin-manager"
+# "tmux-fastcopy-bin"
+
 ## Functionality packages
 "ripgrep"
 "fd"
 "fzf"
 "zoxide"
 "bat"
-"tmux"
-"tmux-resurrect"
 "lsd"
 "neovim"
 "starship"
@@ -99,13 +103,14 @@ packagesParu=(
 
 ## Browsers
 "firefox"
-"qutebrowser"
-"brave-bin"
+# "qutebrowser"
+# "brave-bin"
 "thorium-browser-bin"
 
 ## Fonts
-"ttf-font-awesome"
 "ttf-jetbrains-mono-nerd"
+"noto-fonts-emoji" # for emojis
+# "ttf-font-awesome" # not needed after noto-fonts-emoji
 
 ## Others
 "stow"
@@ -127,6 +132,7 @@ packagesParu=(
 "git-delta"
 "libqalculate"
 "inetutils"
+# "glow"
 # "lsix-git"
 
 ## Resource manager
