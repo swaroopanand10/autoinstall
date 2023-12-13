@@ -130,6 +130,7 @@ packagesParu=(
 "man-db"
 "man-pages"
 "git-delta"
+"lazygit"
 "libqalculate"
 "inetutils"
 # "glow"

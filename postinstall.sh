@@ -1,8 +1,15 @@
 #!/bin/bash
 
-## adding user to some essential groups
+## Adding user to some essential groups
 sudo gpasswd -a swaroop lp
 sudo gpasswd -a swaroop input
 
 ## Reloading udevadm rules for batify
 # sudo udevadm control --reload-rules (uninstalled for now)
+
+## Changing shell to zsh
+chsh -s /bin/zsh
+
+## Creating some imp dirs
+[ -d ~/Pictures ] || mkdir ~/Pictures # create pictures dir only if not exist
+cd ~/Pictures && mkdir videos screenshots
