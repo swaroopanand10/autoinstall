@@ -13,3 +13,6 @@ chsh -s /bin/zsh
 ## Creating some imp dirs
 [ -d ~/Pictures ] || mkdir ~/Pictures # create pictures dir only if not exist
 cd ~/Pictures && mkdir videos screenshots
+
+## Nemo default terminal
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty

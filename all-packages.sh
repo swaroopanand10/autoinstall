@@ -83,6 +83,7 @@ packagesParu=(
 "xorg-xrdb"
 "imv"
 "dnsmasq" # needed with nmcli
+"vimv"
 
 ## Media related packages
 "mpc"
@@ -110,6 +111,7 @@ packagesParu=(
 ## Fonts
 "ttf-jetbrains-mono-nerd"
 "noto-fonts-emoji" # for emojis
+"noto-fonts" # for emojis
 # "ttf-font-awesome" # not needed after noto-fonts-emoji
 
 ## Others
