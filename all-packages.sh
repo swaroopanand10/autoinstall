@@ -112,6 +112,8 @@ packagesParu=(
 "ttf-jetbrains-mono-nerd"
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
+"ttf-nerd-fonts-symbols" # for non-patched symbols
+"ttf-victor-mono" # victor mono for cursive italics for terminal 
 # "ttf-font-awesome" # not needed after noto-fonts-emoji
 
 ## Others
