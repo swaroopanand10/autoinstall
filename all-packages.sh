@@ -16,6 +16,7 @@ packagesParu=(
 # "wlr-randr"
 # "wlprop"
 "nwg-look-bin"
+"qt5ct"
 "wlogout"
 # for screen capturing
 "grimblast-git"
@@ -49,7 +50,7 @@ packagesParu=(
 "fzf-tab-completion-git"
 
 ## Terminals
-"foot"
+# "foot"
 "kitty"
 "alacritty"
 # alacritty-sixel-git
@@ -106,7 +107,9 @@ packagesParu=(
 "firefox"
 # "qutebrowser"
 # "brave-bin"
-"thorium-browser-bin"
+# "thorium-browser-bin"
+"vivaldi"
+"google-chrome"
 
 ## Fonts
 "ttf-jetbrains-mono-nerd"

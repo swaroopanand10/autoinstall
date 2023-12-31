@@ -9,5 +9,6 @@
 source ./all-packages.sh
 source ./paru-function.sh
 
-_installPackagesParu "rofi-lbonn-wayland-git"
+# _installPackagesParu "rofi-lbonn-wayland-git"
+_installPackagesParu "rofi-lbonn-wayland"
 _installPackagesParu "${packagesParu[@]}"
