@@ -6,7 +6,7 @@ git clone git@gitlab.com:swaroopanand10/music.git $HOME/music
 git clone git@github.com:swaroopanand10/autoinstall.git $HOME/.config/autoinstall
 
 ## doing it like this so that stow does not happen if the directory of dotstow does not get clone properly for some reason
-cd $HOME/dotstow/ && stow */ -t ~ --adopt 
+cd $HOME/dotstow/ && stow */ -t ~ --adopt
 cd $HOME/dotstow/ && git restore *
 
 
@@ -34,4 +34,4 @@ git clone https://github.com/TheOdinProject/javascript-exercises.git $HOME/code/
 git clone https://github.com/TheOdinProject/css-exercises.git $HOME/code/projects/other/css-exercises
 
 # os repos
-git clone https://gitlab.com/inkscape/inkscape.git $HOME/code/os/inkscape
+git clone --recurse-submodules https://gitlab.com/inkscape/inkscape.git $HOME/code/os/inkscape-dir/inkscape
