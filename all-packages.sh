@@ -136,12 +136,15 @@ packagesParu=(
 "unzip"
 "man-db"
 "man-pages"
-"git-delta"
-"lazygit"
 "libqalculate"
 "inetutils"
 # "glow"
 # "lsix-git"
+
+## Git related
+"git-delta"
+"lazygit"
+"gitui"
 
 ## Resource manager
 "htop"
