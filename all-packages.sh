@@ -169,6 +169,7 @@ packagesParu=(
 "npm"
 "gdb"
 "cgdb"
+"kdbg"
 # "prettier"
 # "rustup"
 # "rust-analyzer"
