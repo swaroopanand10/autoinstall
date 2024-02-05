@@ -154,6 +154,7 @@ packagesParu=(
 
 ## Filemanagers
 "lf"
+"yazi-git"
 "ctpv-git"
 "ueberzugpp"
 # "ranger"
