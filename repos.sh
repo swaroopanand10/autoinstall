@@ -33,5 +33,9 @@ git clone https://github.com/wesbos/JavaScript30.git $HOME/code/projects/other/j
 git clone https://github.com/TheOdinProject/javascript-exercises.git $HOME/code/projects/other/javascript-exercises
 git clone https://github.com/TheOdinProject/css-exercises.git $HOME/code/projects/other/css-exercises
 
-# os repos
-git clone --recurse-submodules https://gitlab.com/inkscape/inkscape.git $HOME/code/os/inkscape-dir/inkscape
+## Os repos
+# git clone --recurse-submodules https://gitlab.com/inkscape/inkscape.git $HOME/code/os/inkscape-dir/inkscape
+
+# Phosh related
+mkdir $HOME/code/projects/phosh-rel
+mkdir $HOME/code/projects/phosh-forked
