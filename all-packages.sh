@@ -152,6 +152,13 @@ packagesParu=(
 "bottom"
 "strace"
 
+## Virtualization
+# "qemu-full"
+# "libvirt"
+# "virt-manager"
+# "ebtables"
+# "spice-vdagent"
+
 ## Filemanagers
 "lf"
 "yazi-git"

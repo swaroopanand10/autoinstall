@@ -16,3 +16,8 @@ cd ~/Pictures && mkdir videos screenshots
 
 ## Nemo default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+
+## Virtualization
+# sudo systemctl enable --now libvirtd
+# sudo groupadd libvirtd
+# sudo gpasswd -a swaroop libvirtd
