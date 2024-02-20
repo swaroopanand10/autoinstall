@@ -8,11 +8,13 @@ sudo gpasswd -a swaroop input
 # sudo udevadm control --reload-rules (uninstalled for now)
 
 ## Changing shell to zsh
-chsh -s /bin/zsh
+# chsh -s /bin/zsh
 
 ## Creating some imp dirs
 [ -d ~/Pictures ] || mkdir ~/Pictures # create pictures dir only if not exist
-cd ~/Pictures && mkdir videos screenshots
+cd ~/Pictures && [ -d screenshots ] || mkdir screenshots
+[ -d Videos ] || mkdir Videos
+cd ~/Videos && [ -d screen_recs ] || mkdir screen_recs
 
 ## Nemo default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty

@@ -16,7 +16,8 @@ packagesParu=(
 # "wlr-randr"
 # "wlprop"
 "nwg-look-bin"
-"qt5ct"
+# "qt5ct" # useless if qt5-styleplugins is there
+"qt5-styleplugins" # using it to set gtk theme to qt applications
 "wlogout"
 # for screen capturing
 "grimblast-git"
@@ -94,6 +95,7 @@ packagesParu=(
 "yt-dlp"
 "ytfzf"
 # "ff2mpv-go-git"
+# "ff2mpv-rust" # this one is better
 
 ## Zathura related
 "zathura"
@@ -138,6 +140,7 @@ packagesParu=(
 "man-pages"
 "libqalculate"
 "inetutils"
+"leetcode-cli"
 # "glow"
 # "lsix-git"
 
@@ -163,7 +166,7 @@ packagesParu=(
 "lf"
 "yazi-git"
 "ctpv-git"
-"ueberzugpp"
+# "ueberzugpp"
 # "ranger"
 # "joshuto"
 "nemo"
@@ -186,6 +189,7 @@ packagesParu=(
 "flake8"
 "python-black"
 # "stylua"
+"luarocks"
 # "typescript-language-server"
 "clang"
 # "vscode-css-languageserver"
